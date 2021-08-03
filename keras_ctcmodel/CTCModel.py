@@ -1,12 +1,12 @@
-import keras.backend as K
+import tensorflow.keras.backend as K
 import tensorflow as tf
 import numpy as np
 
 import os
-from keras import Input
-from keras.models import Model
-from keras.layers import Lambda
-from keras.models import model_from_json, Sequential
+from tensorflow.keras import Input
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Lambda
+from tensorflow.keras.models import model_from_json, Sequential
 from tensorflow.python.framework import sparse_tensor
 from tensorflow.python.keras import callbacks as callbacks_module
 
@@ -18,14 +18,14 @@ from tensorflow.python.util import nest
 import pickle
 from tensorflow.python.ops import ctc_ops as ctc, sparse_ops, array_ops
 
-from keras.utils import Sequence, GeneratorEnqueuer, OrderedEnqueuer
+from tensorflow.keras.utils import Sequence, GeneratorEnqueuer, OrderedEnqueuer
 import warnings
-from keras.utils.generic_utils import Progbar
-from keras.layers import TimeDistributed, Activation, Dense
+from tensorflow.keras.utils.generic_utils import Progbar
+from tensorflow.keras.layers import TimeDistributed, Activation, Dense
 
 # from ocr_ctc.utils.utils_analysis import tf_edit_distance
 # from ocr_ctc.utils.utils_keras import Kreshape_To1D
-from keras.preprocessing import sequence
+from tensorflow.keras.preprocessing import sequence
 
 """
 authors: Yann Soullard, Cyprien Ruffino (2017)
