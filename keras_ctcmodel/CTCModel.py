@@ -20,7 +20,7 @@ from tensorflow.python.ops import ctc_ops as ctc, sparse_ops, array_ops
 
 from tensorflow.keras.utils import Sequence, GeneratorEnqueuer, OrderedEnqueuer
 import warnings
-from tensorflow.keras.utils.generic_utils import Progbar
+from tensorflow.python.keras.utils.generic_utils import Progbar
 from tensorflow.keras.layers import TimeDistributed, Activation, Dense
 
 # from ocr_ctc.utils.utils_analysis import tf_edit_distance
