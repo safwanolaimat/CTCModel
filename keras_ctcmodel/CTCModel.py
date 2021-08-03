@@ -4,7 +4,7 @@ import numpy as np
 
 import os
 from keras import Input
-from keras.engine import Model
+from keras.models import Model
 from keras.layers import Lambda
 from keras.models import model_from_json, Sequential
 from tensorflow.python.framework import sparse_tensor
